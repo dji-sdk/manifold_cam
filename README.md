@@ -1,6 +1,6 @@
 ## What's This?
 
-The manifold_cam project realizes to get the H.264 video streams from Zenmuse X3 camera, decode and display the vedio in real time. What's more, it also realizes to transfer stream data to RC.
+The manifold_cam project realizes to get the H.264 video streams from Zenmuse X3 camera, decode and display the video in real time. What's more, it also realizes to transfer stream data to RC.
 
 ## Requirements
 
@@ -25,11 +25,11 @@ The manifold_cam project realizes to get the H.264 video streams from Zenmuse X3
 
 Usage: 
 
-- -d --display    display vedio stream
+- -d --display    display video stream
 - -g --getbuffer  get NV12 format buffer
-- -t --transfer   transfer vedio datas to RC
+- -t --transfer   transfer video data to RC
 
 ## Note
 - d and -g cannot be set at the same time
 - DJI GO APP is not necessary. If the app is needed, launch the app and tap, enter camera view, and it's very important that the app should always be camera view mode.
-- The resoulation of image frame is 1280 X 720 pixel, and the format is NV12
+- The resolution of image frame is 1280 X 720 pixel, and the format is NV12
